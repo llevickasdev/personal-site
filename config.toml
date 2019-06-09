@@ -1,9 +1,9 @@
 baseURL = "https://llevickasdev.github.io/"
 title = "Lukas Levickas | Full-Stack Developer"
 theme = "pulp"
-canonifyurls = true
-hasCJKLanguage = true
 enableEmoji = true
+#canonifyurls = true
+#hasCJKLanguage = true
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
@@ -14,10 +14,8 @@ enableEmoji = true
 [params]
 	author = "Lukas Levickas"
 	avatar = "avatar.jpg"
-	#favicon = "favicon.ico"
-	description = """
-		A Full-Stack Developer for all your programming needs
-	"""
+	favicon = "favicon.ico"
+	description = "A Full-Stack Developer for all your programming needs"
 	publicationYear = "2019"
 	# listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
 	# singlePageDateFormat = "January 2, 2006"
@@ -50,4 +48,3 @@ enableEmoji = true
 	pre = "<i class='fa fa-envelope fa-lg'></i>"
 	url = "mailto:l.levickas.dev@pm.me"
 	weight = 40
-
