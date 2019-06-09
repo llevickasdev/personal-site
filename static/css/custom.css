@@ -1,0 +1,46 @@
+.author {
+	color: #5982C3;
+}
+
+header a.author:link {
+	color: #5982C3;
+}
+
+header a.author:visited {
+	color: #5982C3;
+}
+
+header a.author:hover {
+	color: #5982C3;
+}
+
+header a.author:active {
+	color: #5982C3;
+}
+
+.date {
+	color: #869D38;
+}
+.particles-js-canvas-el {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.2;
+}
+.pill {
+	border: 1px solid #AFAFAF;
+	padding: 0 8px;
+	border-radius: 100vw;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.pill.m {
+	margin: 5px;
+}
+.pill.m- {
+	margin-left: 5px;
+}

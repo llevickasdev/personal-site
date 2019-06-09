@@ -1,0 +1,53 @@
+baseURL = "https://llevickasdev.github.io/"
+title = "Lukas Levickas | Full-Stack Developer"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+enableEmoji = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# googleAnalytics = "{your tracking code}"
+
+[taxonomies]
+	series = "series"
+
+[params]
+	author = "Lukas Levickas"
+	avatar = "avatar.jpg"
+	#favicon = "favicon.ico"
+	description = """
+		A Full-Stack Developer for all your programming needs
+	"""
+	publicationYear = "2019"
+	# listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+	# singlePageDateFormat = "January 2, 2006"
+	listPageDateFormat = " "
+	singlePageDateFormat = " "
+	custom_css = ["/css/custom.css"]
+	custom_js = ["/js/particles.min.js", "/js/custom.js"]
+	enableEmoji = true
+
+[outputs]
+	section = ["JSON", "HTML"]
+
+[[menu.main]]
+	identifier = "blog"
+	name = "CV"
+	pre = "<i class='fa fa-address-card fa-lg'></i>" #Choose your favorite font from Font Awesome
+	url = "/cv/"
+	weight = 10
+
+[[menu.main]]
+	identifier = "github"
+	name = "GitHub"
+	pre = "<i class='fab fa-github fa-lg'></i>"
+	url = "https://github.com/deluxo"
+	weight = 30
+
+[[menu.main]]
+	identifier = "email"
+	name = "Email"
+	pre = "<i class='fa fa-envelope fa-lg'></i>"
+	url = "mailto:l.levickas.dev@pm.me"
+	weight = 40
+
